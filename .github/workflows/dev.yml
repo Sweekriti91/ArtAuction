@@ -40,7 +40,7 @@ jobs:
           dotnet tool update --global redth.net.maui.check &&
           maui-check --ci --non-interactive --fix --skip androidsdk --skip xcode --skip vswin --skip vsmac --skip edgewebview2
 
-      - name: Build Weather21
+      - name: Build App
         shell: bash
         run: |
           dotnet build ArtAuction.Android/ArtAuction.Android.csproj -f net6.0-android &&
