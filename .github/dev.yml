@@ -1,0 +1,62 @@
+name: Build MAUI-Mac
+
+on:
+  push:
+    branches: [ maui-migration ]
+
+env:
+    DOTNETVERSION:  6.0.100-preview.6.21355.2
+    DOTNETROOT: /usr/local/share/dotnet/
+    DOTNETTOOLS: ~/.dotnet/tools
+
+jobs:
+  buildmac:
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create Artifacts Folder
+        shell: pwsh
+        run: mkdir $GITHUB_WORKSPACE\artifacts
+
+      - name: Setup .NET Core SDK 5.x
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '5.x'
+
+      - name:  install .NET 6 preview
+        shell: bash
+        run: |
+          export PATH="${{env.DOTNETROOT}}:${{env.DOTNETTOOLS}}:$PATH" &&
+          curl -L https://raw.githubusercontent.com/dotnet/install-scripts/7a9d5dcab92cf131fc2d8977052f8c2c2d540e22/src/dotnet-install.sh > dotnet-install.sh &&
+          sh dotnet-install.sh --version ${{env.DOTNETVERSION}} --install-dir ${{env.DOTNETROOT}} --verbose &&
+          dotnet --list-sdks &&
+          echo "$PATH"
+          
+      - name: Install and Run maui-check Tool
+        shell: bash
+        run: |
+          dotnet tool update --global redth.net.maui.check &&
+          maui-check --ci --non-interactive --fix --skip androidsdk --skip xcode --skip vswin --skip vsmac --skip edgewebview2
+
+      - name: Build Weather21
+        shell: bash
+        run: |
+          dotnet build ArtAuction.Android/ArtAuction.Android.csproj -f net6.0-android &&
+          dotnet build ArtAuction.iOS/ArtAuction.iOS.csproj /p:Configuration=Debug /p:Platform=iPhoneSimulator -f net6.0-ios
+
+      # dotnet build src/WeatherTwentyOne/WeatherTwentyOne.csproj -p:Configuration=Debug -p:TargetFramework=net6.0-maccatalyst
+
+      # - name: Build WinUI3 Debug
+      #   run: msbuild src\WeatherTwentyOne.sln -restore -p:Configuration=Debug -bl:$GITHUB_WORKSPACE\artifacts\WinUI3-Debug.binlog
+
+      # - name: Build WinUI3 Release
+      #   run: msbuild src\WeatherTwentyOne.sln -p:Configuration=Release -bl:$GITHUB_WORKSPACE\artifacts\WinUI3-Release.binlog
+        
+      # - uses: actions/upload-artifact@v2
+      #   with:
+      #     name: artifacts-windows
+      #     path: |
+      #       $GITHUB_WORKSPACE\artifacts\
+      #       src\WeatherTwentyOne\bin\Debug\*android\**\*-Signed.apk
