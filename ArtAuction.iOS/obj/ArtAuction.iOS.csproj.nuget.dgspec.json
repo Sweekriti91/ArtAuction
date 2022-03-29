@@ -1,34 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj": {}
+    "C:\\code\\ArtAuction\\ArtAuction.iOS\\ArtAuction.iOS.csproj": {}
   },
   "projects": {
-    "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj": {
+    "C:\\code\\ArtAuction\\ArtAuction.iOS\\ArtAuction.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
+        "projectUniqueName": "C:\\code\\ArtAuction\\ArtAuction.iOS\\ArtAuction.iOS.csproj",
         "projectName": "ArtAuction.iOS",
-        "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
-        "packagesPath": "/Users/blounty/.nuget/packages/",
-        "outputPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/obj/",
+        "projectPath": "C:\\code\\ArtAuction\\ArtAuction.iOS\\ArtAuction.iOS.csproj",
+        "packagesPath": "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\ArtAuction\\ArtAuction.iOS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/blounty/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Sweeky Satpathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-ios"
+          "net6.0-ios15.2"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://aka.ms/dotnet6/nuget/index.json": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0-1/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-3ba4b3f4/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-ios13.6": {
+          "net6.0-ios15.2": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {
-              "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {
-                "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj"
+              "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj": {
+                "projectPath": "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj"
               }
             }
           }
@@ -40,12 +52,126 @@
         }
       },
       "frameworks": {
-        "net6.0-ios13.6": {
+        "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.100-preview.6.1003, )",
+              "version": "[6.0.200-preview.14.5099, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.200-preview.14.5099, )",
+              "autoReferenced": true
+            },
+            "System.Runtime.InteropServices.NFloat.Internal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "iossimulator-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj",
+        "projectName": "ArtAuction",
+        "projectPath": "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj",
+        "packagesPath": "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\ArtAuction\\ArtAuction\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sweeky Satpathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-android",
+          "net6.0-ios",
+          "net6.0-maccatalyst"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://aka.ms/dotnet6/nuget/index.json": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0-1/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-3ba4b3f4/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-android31.0": {
+            "targetAlias": "net6.0-android",
+            "projectReferences": {}
+          },
+          "net6.0-ios15.2": {
+            "targetAlias": "net6.0-ios",
+            "projectReferences": {}
+          },
+          "net6.0-maccatalyst15.2": {
+            "targetAlias": "net6.0-maccatalyst",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-android31.0": {
+          "targetAlias": "net6.0-android",
+          "dependencies": {
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.200-preview.14.5099, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             }
           },
@@ -61,121 +187,10 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-              "version": "[15.0.100-preview.6.63, 15.0.100-preview.6.63]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.ios",
-              "version": "[6.0.100-preview.6.1003, 6.0.100-preview.6.1003]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.ios",
-              "version": "[6.0.100-preview.6.1003, 6.0.100-preview.6.1003]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.ios",
-              "version": "[6.0.100-preview.6.1003, 6.0.100-preview.6.1003]"
-            },
-            {
-              "name": "Microsoft.Maui.Extensions",
-              "version": "[6.0.100-preview.6.1003, 6.0.100-preview.6.1003]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64",
-              "version": "[6.0.0-preview.6.21352.12, 6.0.0-preview.6.21352.12]"
+              "name": "Microsoft.Android.Ref.31",
+              "version": "[31.0.101-preview.11.117, 31.0.101-preview.11.117]"
             }
           ],
-          "frameworkReferences": {
-            "Microsoft.iOS": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Controls": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Core": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Essentials": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Extensions": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.6.21355.2/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "iossimulator-x64": {
-          "#import": []
-        }
-      }
-    },
-    "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj",
-        "projectName": "ArtAuction",
-        "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj",
-        "packagesPath": "/Users/blounty/.nuget/packages/",
-        "outputPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/obj/",
-        "projectStyle": "PackageReference",
-        "crossTargeting": true,
-        "configFilePaths": [
-          "/Users/blounty/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0-android",
-          "net6.0-ios",
-          "net6.0-maccatalyst"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0-android30.0": {
-            "targetAlias": "net6.0-android",
-            "projectReferences": {}
-          },
-          "net6.0-ios13.6": {
-            "targetAlias": "net6.0-ios",
-            "projectReferences": {}
-          },
-          "net6.0-maccatalyst13.5": {
-            "targetAlias": "net6.0-maccatalyst",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0-android30.0": {
-          "targetAlias": "net6.0-android",
-          "dependencies": {
-            "Microsoft.Maui.Dependencies": {
-              "target": "Package",
-              "version": "[6.0.100-preview.6.1003, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -189,22 +204,28 @@
             "Microsoft.Maui.Essentials": {
               "privateAssets": "all"
             },
-            "Microsoft.Maui.Extensions": {
-              "privateAssets": "all"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.6.21355.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-ios13.6": {
+        "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.100-preview.6.1003, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.200-preview.14.5099, )",
+              "autoReferenced": true
+            },
+            "System.Runtime.InteropServices.NFloat.Internal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -230,22 +251,28 @@
             "Microsoft.Maui.Essentials": {
               "privateAssets": "all"
             },
-            "Microsoft.Maui.Extensions": {
-              "privateAssets": "all"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.6.21355.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-maccatalyst13.5": {
+        "net6.0-maccatalyst15.2": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.100-preview.6.1003, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.200-preview.14.5099, )",
+              "autoReferenced": true
+            },
+            "System.Runtime.InteropServices.NFloat.Internal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -272,14 +299,11 @@
             "Microsoft.Maui.Essentials": {
               "privateAssets": "all"
             },
-            "Microsoft.Maui.Extensions": {
-              "privateAssets": "all"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.6.21355.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

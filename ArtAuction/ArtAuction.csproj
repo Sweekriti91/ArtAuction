@@ -1,8 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net6.0-ios;net6.0-android;net6.0-maccatalyst</TargetFrameworks>
-    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <TargetFrameworks>net6.0-ios;net6.0-android</TargetFrameworks>
+    <!--<ProduceReferenceAssembly>true</ProduceReferenceAssembly>-->
     <UseMaui>True</UseMaui>
+	  <OutputType>Exe</OutputType>
+	  <ImplicitUsings>enable</ImplicitUsings>
+
+	  <!-- Required for C# Hot Reload -->
+	  <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
+
+	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">14.2</SupportedOSPlatformVersion>
+	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
+
+
   </PropertyGroup>
 </Project>
 

@@ -1,19 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "XfyIGCblALunN3HUCcmUnopcagnjPArhpMi0FjwEAJqKAPCcVekH7EkpZdePsKAZD2LID158rp+fC6h26LPr5w==",
+  "dgSpecHash": "L6txm+cDDcTNcHixsG/V6aV/6T7W9hUa4djQpSOl9F22tJ2ZkfbvOxR5mM8Lc8VSH4cZRdTL4DwbnRbhabltWA==",
   "success": true,
-  "projectFilePath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
+  "projectFilePath": "C:\\code\\ArtAuction\\ArtAuction.iOS\\ArtAuction.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/blounty/.nuget/packages/microsoft.maui.dependencies/6.0.100-preview.6.1003/microsoft.maui.dependencies.6.0.100-preview.6.1003.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.maui.graphics/6.0.100-preview.6.299/microsoft.maui.graphics.6.0.100-preview.6.299.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/reloadify3000/1.0.6/reloadify3000.1.0.6.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.netcore.app.runtime.mono.iossimulator-x64/6.0.0-preview.6.21352.12/microsoft.netcore.app.runtime.mono.iossimulator-x64.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.maui.extensions/6.0.100-preview.6.1003/microsoft.maui.extensions.6.0.100-preview.6.1003.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.maui.core.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.core.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.maui.controls.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.controls.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.maui.essentials.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.essentials.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/microsoft.ios.runtime.iossimulator-x64/15.0.100-preview.6.63/microsoft.ios.runtime.iossimulator-x64.15.0.100-preview.6.63.nupkg.sha512"
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.200-preview.14.5099\\microsoft.maui.dependencies.6.0.200-preview.14.5099.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.maui.extensions\\6.0.200-preview.14.5099\\microsoft.maui.extensions.6.0.200-preview.14.5099.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\microsoft.maui.graphics\\6.0.200-preview.14.1092\\microsoft.maui.graphics.6.0.200-preview.14.1092.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }
