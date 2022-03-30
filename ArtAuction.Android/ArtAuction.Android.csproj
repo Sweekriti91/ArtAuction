@@ -3,6 +3,7 @@
     <UseMaui>true</UseMaui>
     <TargetFramework>net6.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+    	<ImplicitUsings>enable</ImplicitUsings>
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
   </PropertyGroup>
     <PropertyGroup>
