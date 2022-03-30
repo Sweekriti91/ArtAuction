@@ -10,7 +10,7 @@
 	  <!-- Required for C# Hot Reload -->
 	  <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
 
-	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">14.2</SupportedOSPlatformVersion>
+	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.4</SupportedOSPlatformVersion>
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
 
 
@@ -18,10 +18,10 @@
 
     <ItemGroup>
 
-			<MauiIcon Include="Resources\icon.png" ForegroundFile="Resources\launcher_foreground.png" Color="#512BD4" />
+			<MauiIcon Include="Resources\icon.png" ForegroundFile="Resources\launcherforeground.png" Color="#512BD4" />
 		
 	<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Default.png" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\default.png" Color="#512BD4" BaseSize="128,128" />
 
 
 	</ItemGroup>

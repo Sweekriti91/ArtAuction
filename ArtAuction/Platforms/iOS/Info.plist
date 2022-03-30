@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>10.0</string>
+	<string>15.4</string>
 	<key>CFBundleDisplayName</key>
 	<string>ArtAuction</string>
 	<key>CFBundleIdentifier</key>
