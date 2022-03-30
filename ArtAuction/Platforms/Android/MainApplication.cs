@@ -5,7 +5,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using ArtAuction;
 
-namespace ArtAuction.Droid
+namespace ArtAuction
 {
 
 	[Application]

@@ -5,7 +5,8 @@
     <UseMaui>True</UseMaui>
 	  <OutputType>Exe</OutputType>
 	  <ImplicitUsings>enable</ImplicitUsings>
-
+	  <SingleProject>true</SingleProject>
+	  <!--<RootNamespace>MauiApp2</RootNamespace>-->
 	  <!-- Required for C# Hot Reload -->
 	  <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
 
@@ -14,6 +15,16 @@
 
 
   </PropertyGroup>
+
+    <ItemGroup>
+
+			<MauiIcon Include="Resources\icon.png" ForegroundFile="Resources\launcher_foreground.png" Color="#512BD4" />
+		
+	<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Default.png" Color="#512BD4" BaseSize="128,128" />
+
+
+	</ItemGroup>
 </Project>
 
 <!-- 
