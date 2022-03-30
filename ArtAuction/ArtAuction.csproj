@@ -21,7 +21,7 @@
 			<MauiIcon Include="Resources\icon.png" ForegroundFile="Resources\launcherforeground.png" Color="#512BD4" />
 		
 	<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\default.png" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\aasplash.png" Color="#512BD4" BaseSize="128,128" />
 
 
 	</ItemGroup>
