@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32317.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtAuction.iOS", "ArtAuction.iOS\ArtAuction.iOS.csproj", "{75989C42-3D80-4DD0-8491-D4A236F59060}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtAuction", "ArtAuction\ArtAuction.csproj", "{1DA2BE49-892A-4533-92BA-CDDA568441B8}"
 EndProject
 Global
@@ -17,18 +15,6 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|iPhone.Build.0 = Debug|iPhone
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|iPhone.ActiveCfg = Release|iPhone
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|iPhone.Build.0 = Release|iPhone
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{75989C42-3D80-4DD0-8491-D4A236F59060}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{1DA2BE49-892A-4533-92BA-CDDA568441B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DA2BE49-892A-4533-92BA-CDDA568441B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA2BE49-892A-4533-92BA-CDDA568441B8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

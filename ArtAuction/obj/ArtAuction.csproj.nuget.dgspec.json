@@ -1,36 +1,48 @@
 {
   "format": 1,
   "restore": {
-    "/Users/swsat/Documents/WorkFolder/ArtAuction/ArtAuction/ArtAuction.csproj": {}
+    "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj": {}
   },
   "projects": {
-    "/Users/swsat/Documents/WorkFolder/ArtAuction/ArtAuction/ArtAuction.csproj": {
+    "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/swsat/Documents/WorkFolder/ArtAuction/ArtAuction/ArtAuction.csproj",
+        "projectUniqueName": "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj",
         "projectName": "ArtAuction",
-        "projectPath": "/Users/swsat/Documents/WorkFolder/ArtAuction/ArtAuction/ArtAuction.csproj",
-        "packagesPath": "/Users/swsat/.nuget/packages/",
-        "outputPath": "/Users/swsat/Documents/WorkFolder/ArtAuction/ArtAuction/obj/",
+        "projectPath": "C:\\code\\ArtAuction\\ArtAuction\\ArtAuction.csproj",
+        "packagesPath": "C:\\Users\\Sweeky Satpathy\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\ArtAuction\\ArtAuction\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/swsat/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Sweeky Satpathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-android",
           "net6.0-ios"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://aka.ms/dotnet6/nuget/index.json": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0-1/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-ee0a97a0/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-3ba4b3f4/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-android31.0": {
             "targetAlias": "net6.0-android",
             "projectReferences": {}
           },
-          "net6.0-ios15.4": {
+          "net6.0-ios15.2": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {}
           }
@@ -47,12 +59,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5321, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5321, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             }
           },
@@ -68,8 +80,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.2, 6.0.2]"
+              "name": "Microsoft.Android.Ref.31",
+              "version": "[31.0.101-preview.11.117, 31.0.101-preview.11.117]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-arm",
@@ -81,10 +93,6 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.2, 6.0.2]"
             }
           ],
@@ -105,19 +113,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300-preview.22154.4/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22178.8\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-ios15.4": {
+        "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5321, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5321, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
@@ -135,16 +143,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.2, 6.0.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -162,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300-preview.22154.4/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22178.8\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
