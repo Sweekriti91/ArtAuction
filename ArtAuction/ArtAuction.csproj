@@ -14,8 +14,15 @@
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.4</SupportedOSPlatformVersion>
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
 
-
   </PropertyGroup>
+
+    <ItemGroup Condition="$(TargetFramework.Contains('-android'))">
+      <Compile Remove="Main.cs" />
+      <Compile Remove="AppDelegate.cs" />
+      <Compile Remove="Entitlements.plist" />
+      <Compile Remove="Info.plist" />
+    </ItemGroup>
+
 </Project>
 
 <!-- 
