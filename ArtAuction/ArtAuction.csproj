@@ -11,7 +11,7 @@
 
     <ApplicationId>com.blounty.ArtAuction</ApplicationId>
 
-	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.2</SupportedOSPlatformVersion>
+	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.4</SupportedOSPlatformVersion>
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
 
   </PropertyGroup>
