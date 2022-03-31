@@ -4,6 +4,7 @@ using System.Linq;
 using Microsoft.Maui;
 using Foundation;
 using UIKit;
+using ArtAuction;
 
 namespace ArtAuction.iOS
 {
