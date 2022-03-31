@@ -16,13 +16,6 @@
 
   </PropertyGroup>
 
-    <ItemGroup Condition="$(TargetFramework.Contains('-android'))">
-      <Compile Remove="Main.cs" />
-      <Compile Remove="AppDelegate.cs" />
-      <Compile Remove="Entitlements.plist" />
-      <Compile Remove="Info.plist" />
-    </ItemGroup>
-
 </Project>
 
 <!-- 
