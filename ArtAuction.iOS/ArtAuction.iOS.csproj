@@ -7,10 +7,10 @@
 
   </PropertyGroup>
 
-  <ItemGroup>
+  <!-- <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
-    </ItemGroup>
-    
+    </ItemGroup> -->
+
  <ItemGroup>
     <ProjectReference Include="..\ArtAuction\ArtAuction.csproj">
       <Project>{1DA2BE49-892A-4533-92BA-CDDA568441B8}</Project>
