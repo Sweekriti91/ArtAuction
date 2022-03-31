@@ -3,7 +3,7 @@
     <TargetFrameworks>net6.0-ios;net6.0-android</TargetFrameworks>
     <!--<ProduceReferenceAssembly>true</ProduceReferenceAssembly>-->
     <UseMaui>True</UseMaui>
-	  <OutputType>Exe</OutputType>
+	  <OutputType>Library</OutputType>
 	  <ImplicitUsings>enable</ImplicitUsings>
 
 	  <!-- Required for C# Hot Reload -->
