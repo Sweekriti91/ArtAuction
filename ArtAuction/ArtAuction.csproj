@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net6.0-ios;net6.0-android</TargetFrameworks>
     <!--<ProduceReferenceAssembly>true</ProduceReferenceAssembly>-->
     <UseMaui>True</UseMaui>
-	  <OutputType>Exe</OutputType>
+	  <OutputType>Library</OutputType>
 	  <ImplicitUsings>enable</ImplicitUsings>
 
 	  <!-- Required for C# Hot Reload -->
@@ -11,7 +11,7 @@
 
     <ApplicationId>com.blounty.ArtAuction</ApplicationId>
 
-	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.4</SupportedOSPlatformVersion>
+	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.2</SupportedOSPlatformVersion>
 	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">31.0</SupportedOSPlatformVersion>
 
   </PropertyGroup>
