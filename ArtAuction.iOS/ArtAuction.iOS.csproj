@@ -4,7 +4,6 @@
     <TargetFramework>net6.0-ios</TargetFramework>
     <OutputType>Exe</OutputType>
     	<ImplicitUsings>enable</ImplicitUsings>
-	  <SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-ios'">15.4</SupportedOSPlatformVersion>
 
   </PropertyGroup>
  <ItemGroup>
